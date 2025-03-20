@@ -1,25 +1,36 @@
 import React from 'react';
 import { MostPopularCard, RecommendedHolidays, PopularStays } from './router';
 import './PlanNextTrip.css';
+import GreeceImg from '../../../assets/Greece.png';
+import NorwayImg from '../../../assets/Norway.png';
+import ParisImg from '../../../assets/paric.png';
+import TuscanyImg from '../../../assets/Tuscany.png';
+import BaliImg from '../../../assets/Bali.png';
+import SwissImg from '../../../assets/swiss.png';
+import BoracayImg from '../../../assets/Boracay.png';
+import PalawanImg from '../../../assets/Palawan.png';
+import EntireBungalowImg from '../../../assets/Entirebungalow.png';
+import ArcticHutImg from '../../../assets/ArcticHut.png';
+import LakeLouiseInnImg from '../../../assets/LakeLouiseInn.png';
 
 const mostPopularDestinations = [
-  { backimg: 'src/assets/Greece.png', price: 1079 },
-  { backimg: 'src/assets/Norway.png', price: 895 },
-  { backimg: 'src/assets/paric.png', price: 699 },
-  { backimg: 'src/assets/Tuscany.png', price: 1245 }
+  { backimg: GreeceImg, price: 1079 },
+  { backimg: NorwayImg, price: 895 },
+  { backimg: ParisImg, price: 699 },
+  { backimg: TuscanyImg, price: 1245 }
 ];
 
 const recommendedHolidays = [
-  { name: 'Bali', price: 899, backimg: 'src/assets/Bali.png', numberOfTrip: '4D3N' },
-  { name: 'Swiss', price: 900, backimg: 'src/assets/swiss.png', numberOfTrip: '6D5N' },
-  { name: 'Boracay', price: 699, backimg: 'src/assets/Boracay.png', numberOfTrip: '5D4N' },
-  { name: 'Palawan', price: 789, backimg: 'src/assets/Palawan.png', numberOfTrip: '4D3N' }
+  { name: 'Bali', price: 899, backimg: BaliImg, numberOfTrip: '4D3N' },
+  { name: 'Swiss', price: 900, backimg: SwissImg, numberOfTrip: '6D5N' },
+  { name: 'Boracay', price: 699, backimg: BoracayImg, numberOfTrip: '5D4N' },
+  { name: 'Palawan', price: 789, backimg: PalawanImg, numberOfTrip: '4D3N' }
 ];
 
 const popularStays = [
   {
     name: 'Entire Bungalow',
-    backimg: 'src/assets/Entirebungalow.png',
+    backimg: EntireBungalowImg,
     price: 575,
     type: 'Matterhorn Suites',
     rating: 4.9,
@@ -27,7 +38,7 @@ const popularStays = [
   },
   {
     name: 'Arctic Hut',
-    backimg: 'src/assets/ArcticHut.png',
+    backimg: ArcticHutImg,
     price: 360,
     type: 'Matterhorn Suites',
     rating: 4.8,
@@ -35,7 +46,7 @@ const popularStays = [
   },
   {
     name: 'Lake Louise Inn',
-    backimg: 'src/assets/LakeLouiseInn.png',
+    backimg: LakeLouiseInnImg,
     price: 244,
     type: 'Deluxe King Room',
     rating: 4.6,
@@ -43,7 +54,7 @@ const popularStays = [
   },
   {
     name: 'Lake Louise Inn',
-    backimg: 'src/assets/LakeLouiseInn.png',
+    backimg: LakeLouiseInnImg,
     price: 244,
     type: 'Deluxe King Room',
     rating: 4.6,
