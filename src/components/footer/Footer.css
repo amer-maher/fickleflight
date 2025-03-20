@@ -1,0 +1,57 @@
+.footer {
+    background: linear-gradient(to right, #0B5BA8, #299BD8);
+    padding: 20px 40px;
+    color: white;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap; /* Ensure responsiveness */
+  }
+  
+  .col-6 {
+    width: 50%; /* Each column takes 50% */
+    padding: 10px;
+  }
+  
+  .col-4 {
+    width: 33.33%; /* Three equal columns */
+    padding: 10px;
+  }
+  
+  .footer-description {
+ 
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .footer-logo {
+    max-width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 8px;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  ul li a:hover {
+    text-decoration: underline;
+    color: #007bff;
+  }
+  

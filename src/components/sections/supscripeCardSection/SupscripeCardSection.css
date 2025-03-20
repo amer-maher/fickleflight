@@ -1,0 +1,61 @@
+.subscription-form {
+    background-image: url('/src/assets/supscrip.png'); /* Ensure the path is correct */
+    background-size: cover; /* Cover the entire container */
+    background-repeat: no-repeat; /* No repetition */
+    background-position: center; /* Center the image */
+    display: flex; /* Enable flexbox for alignment */
+    justify-content: center; /* Center the card horizontally */
+    align-items: center; /* Center the card vertically */
+    height: 80rch; /* Full viewport height */
+    width: 100%; /* Full width */
+    text-align: center; /* Center-align text */
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in dimensions */
+  }
+  
+  .subscription-form .card {
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow for a floating effect */
+    width: 600px; /* Width of the card */
+    text-align: center;
+  }
+  
+  .card h1 {
+    color: #007bff; /* Blue heading color */
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+  }
+  
+  .card p {
+    color: #333; /* Dark gray text */
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+  
+  .input-field {
+    width: 100%; /* Full width of the input */
+    padding: 10px;
+    margin-bottom: 15px; /* Space between inputs */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1rem;
+    box-sizing: border-box; /* Include padding in dimensions */
+  }
+  
+  .submit-btn {
+    background-color: #ff9800; /* Orange background */
+    color: white; /* White text */
+    border: none; /* Remove borders */
+    padding: 10px 15px;
+    border-radius: 5px; /* Rounded corners */
+    font-size: 1rem;
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: all 0.3s ease; /* Smooth hover effects */
+  }
+  
+  .submit-btn:hover {
+    background-color: #e68900; /* Darker orange on hover */
+  }
+  

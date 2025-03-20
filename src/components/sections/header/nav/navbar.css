@@ -1,0 +1,30 @@
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Ensures spacing between left, center, and right sections */
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .links {
+    display: flex;
+    gap: 20px; /* Space between nav links */
+  }
+  
+  .right-section {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Space between notification and profile dropdowns */
+  }
+  
+  .dropdown-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  

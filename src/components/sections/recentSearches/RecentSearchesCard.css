@@ -1,0 +1,11 @@
+.plain-img{
+    background-image: url('../../../assets/pain.jpg');
+}
+.container{
+    margin-top: 10px;
+}
+.plane-img{
+    width: 90px;
+    height: 70px;
+    transform: rotate(90deg);
+}
