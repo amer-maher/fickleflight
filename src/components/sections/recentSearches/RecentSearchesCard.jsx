@@ -13,7 +13,7 @@ function RecentSearchesCard({ departure, arrival, date }) {
           <div className="col-3 text-center arrival fw-bold">{arrival}</div>
         </div>
         <div className="text-center mt-2">
-          <span className="fw-bold">Depart On:</span> {date}
+          <span className="fw-bold">Depart On</span> {date}
         </div>
       </div>
     </div>
